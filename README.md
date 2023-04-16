@@ -1,4 +1,4 @@
-# -K8Sdeploy-with-Fullstack-project-using-PHP-and-React
+# K8Sdeploy-with-Fullstack-project-using-PHP-and-React
 
 ## To test connection locally run backend part then frontend to test connection
 
