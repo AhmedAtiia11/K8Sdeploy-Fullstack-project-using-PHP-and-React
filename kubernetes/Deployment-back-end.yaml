@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: back-end-deploy
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: php
+  template:
+    metadata:
+      name: php-pod
+      labels:
+        app: php
+    spec:
+      containers:
+        - image: ahmedatya11/php-backend-img
+          name: back-end-cont
+          ports:
+            - containerPort: 5000
